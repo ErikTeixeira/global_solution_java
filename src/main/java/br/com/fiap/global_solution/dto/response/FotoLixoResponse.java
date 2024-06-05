@@ -6,7 +6,11 @@ import lombok.Builder;
 public record FotoLixoResponse(
 
         Long id,
+
+        String src,
+
         DadosLixoResponse dadosLixo,
+
         UsuarioResponse usuario
 
 ) {

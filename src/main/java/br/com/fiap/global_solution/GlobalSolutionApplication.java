@@ -11,3 +11,6 @@ public class GlobalSolutionApplication {
     }
 
 }
+
+
+// rodar o swagger     localhost/swagger-ui.html

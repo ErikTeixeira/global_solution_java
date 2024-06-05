@@ -11,3 +11,8 @@ spring:
         format_sql: true
         hbm2ddl:
           auto: create
+
+# /api-docs endpoint custom path
+springdoc:
+  api-docs:
+    path: /swagger-ui.html

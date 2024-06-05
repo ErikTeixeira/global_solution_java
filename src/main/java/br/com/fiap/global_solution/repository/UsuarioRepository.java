@@ -1,6 +1,6 @@
 package br.com.fiap.global_solution.repository;
 
-import br.com.fiap.java_challenge.entity.Usuario;
+import br.com.fiap.global_solution.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

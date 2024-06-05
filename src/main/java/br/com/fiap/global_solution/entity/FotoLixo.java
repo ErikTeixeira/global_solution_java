@@ -31,4 +31,14 @@ public class FotoLixo {
     )
     private DadosLixo dadosLixo;
 
+    @ManyToOne(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinColumn(
+            name = "USUARIO",
+            referencedColumnName = "ID_USUARIO",
+            foreignKey = @ForeignKey(
+                    name = "FK_FOTOLIXO_USUARIO"
+            )
+    )
+    private Usuario Usuario;
+
 }

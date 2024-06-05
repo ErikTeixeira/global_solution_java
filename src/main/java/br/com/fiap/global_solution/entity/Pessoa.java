@@ -37,7 +37,7 @@ public class Pessoa {
     private LocalDate dataNascimento;
 
     @Column(name = "CPF_PESSOA", nullable = false)
-    private LocalDate cpf;
+    private String cpf;
 
     @Column(name = "EMAIL_PESSOA", nullable = false)
     private String email;

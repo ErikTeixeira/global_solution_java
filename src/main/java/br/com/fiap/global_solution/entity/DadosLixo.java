@@ -28,6 +28,5 @@ public class DadosLixo {
 
     private LocalDateTime dataEnvio;
 
-    private String condicaoAmbiente;
 
 }

@@ -5,12 +5,14 @@ import jakarta.validation.constraints.NotNull;
 
 public record FotoLixoRequest(
 
-        @Valid
-        @NotNull(message = "É necessário informar os dados da imagem")
-        PessoaRequest dadosLixo,
+        String src,
 
         @Valid
-        @NotNull(message = "É necessário informar o usuário")
+        @NotNull(message = "É necessário informar os dados da imagem")
+        DadosLixoRequest dadosLixo,
+
+        @Valid
+        @NotNull(message = "É necessário informar o usuário que tirou a foto")
         AbstractRequest usuario
 
 ) {

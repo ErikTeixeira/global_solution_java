@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "b4b48716-45f7-40de-9444-e81c7acd699b",
+		"name": "Global Solution",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30957512"
+	},
+	"item": [
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Criar Usuário",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"bruninhosudre@gmail.com\",\n    \"password\": \"#Abc123*1\",\n    \"pessoa\": {\n        \"nome\": \"Bruno Sudré\",\n        \"sobrenome\": \"Nascimento\",\n        \"dataNascimento\": \"2000-05-15\",\n        \"cpf\": \"12345678901\",\n        \"email\": \"bruninhosudre@gmail.com\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Usuários",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/usuarios?username=bruninhosudre@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuarios"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "bruninhosudre@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Usuário por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/usuarios/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuarios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FotoLixo",
+			"item": [
+				{
+					"name": "Criar FotoLixo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"src\": \"imagem.jpg\",\n    \"dadosLixo\": {\n        \"tipoLixo\": \"Papel\",\n        \"dataEnvio\": \"2023-10-26T10:00:00\"\n    },\n    \"usuario\": {\n        \"id\": 1\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/fotoLixo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"fotoLixo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar FotoLixo por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/fotoLixo/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"fotoLixo",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localizacao",
+			"item": [
+				{
+					"name": "Criar Localizacao",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"latitude\": -23.5505,\n    \"longitude\": -46.6333,\n    \"fotoLixo\": {\n        \"id\": 1\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/localizacao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"localizacao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Localizacao por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/localizacao/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"localizacao",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -23,11 +23,11 @@ public class FotoLixo {
 
     private String src;
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(
             name = "DADOSLIXO",
             referencedColumnName = "ID_DADOSLIXO",
-            foreignKey = @ForeignKey(name = "FK_DADOSLIXO_USUARIO")
+            foreignKey = @ForeignKey(name = "FK_FOTOLIXO_DADOSLIXO")
     )
     private DadosLixo dadosLixo;
 

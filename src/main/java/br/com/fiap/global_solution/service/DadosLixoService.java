@@ -45,6 +45,7 @@ public class DadosLixoService implements ServiceDTO<DadosLixo, DadosLixoRequest,
     public DadosLixoResponse toResponse(DadosLixo e) {
 
         return DadosLixoResponse.builder()
+                .id(e.getId())
                 .tipoLixo(e.getTipoLixo())
                 .dataEnvio(e.getDataEnvio())
                 .build();

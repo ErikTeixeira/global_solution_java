@@ -101,7 +101,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"src\": \"imagem.jpg\",\n    \"dadosLixo\": {\n        \"tipoLixo\": \"Papel\",\n        \"dataEnvio\": \"2023-10-26T10:00:00\"\n    },\n    \"usuario\": {\n        \"id\": 1\n    }\n}",
+							"raw": "{\n    \"src\": \"imagem.jpg\",\n    \"dadosLixo\": {\n        \"tipoLixo\": \"Garrafas e pneu na praia\",\n        \"dataEnvio\": \"2023-10-26T10:00:00\"\n    },\n    \"usuario\": {\n        \"id\": 1\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -156,7 +156,7 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/logonrmlocal/Downloads/imagem.jpg"
+									"src": []
 								}
 							]
 						},

@@ -71,8 +71,8 @@ Quando rodar o projeto acesse o link -> localhost/swagger-ui.html
 
 ## Vídeo da Proposta Tecnológica
 
-**Link do video:
-    * https://youtube.com.br
+**Link do video:**
+    * https://youtu.be/xaJtvGFOJgw
 
 
 ## Documentação da API (Endpoints)

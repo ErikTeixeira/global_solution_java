@@ -15,6 +15,8 @@
 **Contribuições em Equipe:**
 * Mobile App Development: Todo o grupo colaborou.
 
+## Objetivo ODS 14
+O objetivo 14 dos Objetivos de Desenvolvimento Sustentável (ODS 14) da ONU é "Conservar e usar de forma sustentável os oceanos, mares e recursos marinhos para o desenvolvimento sustentável". Teach Peach contribui para esse objetivo ao fornecer uma plataforma que facilita o monitoramento e a redução da poluição marinha, promovendo a conscientização e o envolvimento da comunidade.
 
 ## Rodando a Aplicação
 

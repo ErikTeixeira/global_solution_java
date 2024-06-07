@@ -103,7 +103,7 @@ Quando rodar o projeto acesse o link -> localhost/swagger-ui.html
 A poluição costeira e marinha representa uma ameaça crescente ao ecossistema marinho e à saúde humana. A falta de conscientização e de monitoramento eficiente contribui para a gravidade do problema.
 
 ### Solução
-Teach Peach oferece uma plataforma para o monitoramento colaborativo da poluição, permitindo que cidadãos denunciem a presença de lixo em tempo real. As informações coletadas são exibidas em um mapa interativo, fornecendo dados valiosos para ações de limpeza e conscientização.
+Teach Peach oferece uma plataforma para o monitoramento colaborativo da poluição, permitindo que cidadãos denunciem a presença de lixo em tempo real.
 
 ### Público-Alvo
 Cidadãos engajados na proteção do meio ambiente, ONGs, órgãos governamentais e empresas com responsabilidade socioambiental.

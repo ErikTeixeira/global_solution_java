@@ -2,7 +2,7 @@
 
 ![image](https://github.com/AlleSilvaa/TechPeach/assets/126684613/9783be37-be88-4a69-9629-dbc7f67624d6)
 
-**Teach Peach** é uma plataforma web e mobile que visa combater a poluição costeira e marinha, capacitando cidadãos a se tornarem agentes de mudança. Através do monitoramento colaborativo e da conscientização pública, o projeto busca proteger e preservar o meio ambiente para as futuras gerações.
+**Teach Peach** é uma plataforma que visa combater a poluição costeira e marinha, capacitando cidadãos a se tornarem agentes de mudança. Através do monitoramento colaborativo e da conscientização pública, o projeto busca proteger e preservar o meio ambiente para as futuras gerações.
 
 ## Integrantes
 
@@ -13,7 +13,7 @@
 * **Leonardo Gonçalves (RM98912):** DevOps Tools e Cloud Computing
 
 **Contribuições em Equipe:**
-* Desenvolvimento da API Java: Todo o grupo colaborou.
+* Mobile App Development: Todo o grupo colaborou.
 
 
 ## Rodando a Aplicação
@@ -58,6 +58,12 @@ Certifique-se de que o Maven e o Java estão corretamente instalados e configura
 
 **Diagrama=:**
     ![diagramaJava.png](documentacao/diagrama.png)
+
+**Diagrama Request=:**
+![diagramaJava.png](documentacao/diagrama_request.png)
+
+**Diagrama Response=:**
+![diagramaJava.png](documentacao/diagrama_response.png)
 
 ## Documentação com SWAGGER
 Quando rodar o projeto acesse o link -> localhost/swagger-ui.html
@@ -104,7 +110,6 @@ Cidadãos engajados na proteção do meio ambiente, ONGs, órgãos governamentai
 
 ### Benefícios
 - **Monitoramento Eficaz:** Coleta de dados em tempo real sobre a localização e tipos de lixo.
-- **Conscientização Pública:** Mapa interativo que ilustra a extensão da poluição.
 - **Engajamento da Comunidade:** Cidadãos como protagonistas na luta contra a poluição.
 - **Ações de Limpeza:** Dados para otimizar ações de limpeza e identificar áreas críticas.
 
